@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            html {
+                background-image: linear-gradient(to bottom right, #e0ff45, #488828);
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                padding-left: 0;
+                padding-top: 0;
+                margin-top: 0%;
+                color: rgb(1, 38, 0);
+            }
+            
+            body {
+
+                padding-left: 0;
+                padding-right: 0;
+                margin-left: 0;
+                margin-right: 0;
+                margin-top: 0;
+
+            }
+
+            h1 {
+                text-align: center;
+                font-weight: bold;
+                font-size: 400%;
+                color: rgb(1, 38, 0);
+                background-image: linear-gradient(to bottom right, #bfe500, #417c23);
+                left: 0;
+                right: 0;
+                margin-top: 0;
+                padding: 5%;
+            }
+
+        
+
+            .icon_setup {
+                padding: 2px;
+                background-image: linear-gradient(to bottom right, #bfe500, #417c23);
+                border: linear-gradient(to bottom right, #bfe500, #417c23);
+                border-radius: 20%;
+                display: grid;
+                margin: 2px;
+
+                
+            }
+            
+            #bg_bar {
+                background-image: linear-gradient(to bottom right, #d4ff00, #488828);
+                color: white;
+                border: linear-gradient(to bottom right, #d4ff00, #488828);
+                border-bottom-right-radius: 10px;
+                border-top-right-radius: 10px;
+                text-align: center;
+                position: fixed;
+                bottom: 35%;
+                left: 0;
+                right: 95.2%;
+                padding: 5px;
+            
+            }
+            
+            #textio {
+                margin: 15%;
+                margin-top: 2%;
+            }
+
+            #Blender_icon {
+                border: none;
+                color: white;
+                text-align: center;border: none;
+                text-decoration: none;
+                display: inline-block;
+                background-image: url(Blender_Logo.png);
+                background-position: center;
+                background-size: cover;
+                border-radius: 20%;
+                background-repeat: no-repeat;
+                font-size: 70%;
+                cursor: pointer;
+                padding-top: 50%;
+                padding-bottom: 40%;
+            }
+            
+            #Krita_GIMP_icon {
+                border: none;
+                color: white;
+                text-align: center;border: none;
+                text-decoration: none;
+                display: inline-block;
+                background-image: url(Krita_GIMP_Logo.png);
+                background-position: center;
+                background-size: cover;
+                border-radius: 20%;
+                background-repeat: no-repeat;
+                font-size: 70%;
+                cursor: pointer;
+                padding-top: 50%;
+                padding-bottom: 40%;
+            }
+
+            #Audacity_icon {
+                border: none;
+                color: white;
+                text-align: center;border: none;
+                text-decoration: none;
+                display: inline-block;
+                background-image: url(Audacity_Logo.png);
+                background-position: center;
+                background-size: cover;
+                border-radius: 20%;
+                background-repeat: no-repeat;
+                font-size: 70%;
+                cursor: pointer;
+                padding-top: 50%;
+                padding-bottom: 40%;
+            }
+
+
+            #Inkscape {
+                border: none;
+                color: white;
+                text-align: center;border: none;
+                text-decoration: none;
+                display: inline-block;
+                background-image: url(Inkscape_logo.png);
+                background-position: center;
+                background-size: cover;
+                border-radius: 20%;
+                background-repeat: no-repeat;
+                font-size: 70%;
+                cursor: pointer;
+                padding-top: 50%;
+                padding-bottom: 40%;
+            }
+
+
+            #Canva {
+                border: none;
+                color: white;
+                text-align: center;border: none;
+                text-decoration: none;
+                display: inline-block;
+                background-image: url(Canva_Logo.png);
+                background-position: center;
+                background-size: cover;
+                border-radius: 20%;
+                background-repeat: no-repeat;
+                font-size: 70%;
+                cursor: pointer;
+                padding-top: 50%;
+                padding-bottom: 40%;
+            }
+
+
+
+            .button {
+                border: none;
+                color: white;
+                text-align: center;border: none;
+                text-decoration: none;
+                display: inline-block;
+                background-image: url(Ryder.png);
+                background-position: center;
+                background-size: cover;
+                border-radius: 20%;
+                background-repeat: no-repeat;
+                font-size: 70%;
+                cursor: pointer;
+                padding-top: 50%;
+                padding-bottom: 40%;
+            }
+        
+            
+
+            
+            .podnaslovi {
+                font-weight: bold; 
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+                font-size: 300%;
+                padding-top: 0%;
+                margin-top: 15%;
+                margin-bottom: 1%;
+            }
+
+            .obrub_podnaslov {
+                font-weight: bold; 
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+                font-size: 200%;
+                padding-top: 0%;
+                margin-top: 15%;
+                margin-bottom: 1%;
+            }
+
+            .slike {
+                display: block;
+                margin-left: auto;
+                margin-right: auto; 
+                margin-top: 7%;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <h1>PROJEKT MULTIMEDIJALNI SUSTAVI</h1>
+        <div id="textio">
+            
+            <p>Dobrodošli na moju stranicu projekta za predmet Multimedijalnih Sustava!</p>
+            <p>Ovo je glavna stranica projekta na kojoj ću proći i u kratko predstaviti sve multimedije u njihovom završnom
+               stanju, korištene u ovome projektu.
+            </p>
+            <p>Na lijevoj strani se nalazi sidebar s ikonama koje vode do stranica s detaljnijim opisima izrade 
+                multimedija i nekoliko primjera njihovih sirovih, tj. početnih, stanja za ovaj projekt.</p>
+
+
+            <br>
+            <p style="font-size: 200%; font-weight: bold;">Krenimo na veličanstveno putovanje kroz multimediju.</p>
+            <p>Naše putovanje ćemo započeti s videom, koji je kombinacija većine dostupnih multimedija
+             i više manje daje kratak pogled u svijet u koji ćemo zaroniti danas. 
+            </p>
+            
+            
+            
+
+            <p class="podnaslovi">VIDEO</p>
+            
+
+
+            <p>Ovaj video je rezultat Blender rendera od jednog osobnog projekta na kojem sam radila prije nekoliko mjeseci i prikazuje
+               jednog lika kojeg sam kompletno modelirala i animirala u Blenderu, a teksturu njegovog lica i teksturu drški od njegova dva oružja
+               sam napravila u Kriti. Također sve prikazano u videu je moj rad i moja kreacija.</p>
+            
+            <!--Također Arena u kojoj se moj lik nalazi, kao i dimna zavjesa kojom je sve obavijeno, napravljena je u Blenderu.-->   
+            <br>
+            <br>
+
+            <video width="100%" poster="Ryder.png" controls>
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            
+            
+            
+            
+
+            <p class="podnaslovi">SLIKA</p>
+            
+            <p>Za obradu slike odlučila sam koristiti jedan od kadrova prisutnih u videu, a program 
+                korišten kako bi se postigao ovaj rezultat je GIMP (uz laganu pomoć Kritinih kistova za
+                napraviti "poderani" obrub oko slike, ali o tome pri kraju ove stranice).
+
+            </p>
+            
+            
+            <br>
+            
+            <!--<img src="slika.png" 
+                 alt="slika Rydera"
+                 width="100%"
+                 class="slike"
+                 title="Blender">-->
+            
+            <img src="slika_obradena_obrubljena.png" 
+                 alt="slika Rydera"
+                 width="100%"
+                 class="slike"
+                 title="Obrađena slika lika u magli">           
+            
+            
+        
+
+
+                 
+            
+            <p class="podnaslovi">ZVUK</p>
+            
+            <p>Audacity je savršen program za obradu zvuka, tako da je sljedeći audio snimak ambijenta u potpunosti
+               obrađen u tom programu.
+
+            </p>
+
+            <audio controls>
+                <source src="zvuk_u_pecini.wav" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            
+            <br>
+            <br>
+            
+
+            <p class="podnaslovi">GRAFIKA</p>
+
+            <p>Za grafiku odlučila sam pretvoriti sliku koja je u rasterskoj grafici u vektorsku grafiku, 
+               te kao tematiku uokviriti je u oblik poštanske marke. Uvijek me zanimalo kako bi izgledalo 
+               pretvoriti rastersku sliku u vektorsku, te tako moči uvećati u nedogled bez gubitka kvalitete. 
+               Za taj eksperiment odlučila sam koristiti sliku prednjeg dijela Volskwagen Golfa MK8. To je također 
+               rezultat jednog projekta kojeg sam započela prije nekoliko mjeseci i završila u sklopu ovog projekta.</p>
+            
+            
+
+            <img src="Golf_MK8_Vector.svg" 
+                 alt="slika Rydera"
+                 width="50%"
+                 class="slike"
+                 title="Golf MK8 (svg)"
+                 >
+
+            <p class="podnaslovi">TEKST</p>
+
+            <p>S Canvom sam se tu i tamo družila u srednjoj školi za brzo i jednostavnu uređivanje grafičkih elemenata, pa
+                je bilo red da ju iskoristim i u ovom projektu za izradu novinskog članka.
+
+            </p>
+            
+            <br>
+
+            <img src="Ducati_Superleggera_V4_Centenario.png" 
+                 alt="slika Rydera"
+                 width="100%"
+                 style="slike"
+                 title="Članak o Ducati Superleggera V4 Centenario">   
+            
+            
+            <br>
+            <br>
+            <br>
+            <br>
+    
+            <p class="obrub_podnaslov">OBRUB</p>
+
+            <p>Za efekt "poderanog" obruba oko slika prvo sam u Kriti napravila s jednim kistom, a za sve ostale
+               sam napravila selection praznog "poderanog" prostora i taj prostor izbrisala s nove slike.
+            </p>
+            
+            <img src="obrub_demonstracija.png" 
+                 alt="slika Rydera"
+                 width="100%"
+                 style="slike"
+                 title="prikaz kreacije obruba oko slika"> 
+
+            
+        </div>
+       
+        <div id="bg_bar">
+            
+            <span class="icon_setup" id="Blender">
+                <a href="Blender.html" id="Blender_icon" title="Blender">
+                    
+                </a>
+            </span>
+            
+            <br />
+            <span class="icon_setup">
+                <a href="GIMP_Krita.html" class="button" id="Krita_GIMP_icon" title="Krita i GIMP"></a>
+            </span>
+            
+            <br />
+            <span class="icon_setup">
+                <a href="Audacity.html" class="button" id="Audacity_icon" title="Audacity"></a>
+            </span>
+
+
+            <br />
+            <span class="icon_setup">
+                <a href="Inkscape.html" class="button" id="Inkscape" title="Inkscape"></a>
+            </span>
+
+
+            
+            <br />
+            <span class="icon_setup">
+                <a href="Canva.html" class="button" id="Canva" title="Canva"></a>
+            </span>
+
+
+            
+            
+            
+            <!-- <span class="icon_setup">
+                <a href="#" class="button" title="Blender"></a>
+            </span> -->
+            
+        </div>
+    </body>
+
+    <!-- -->
+</html>
